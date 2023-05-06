@@ -18,19 +18,17 @@
 
 
 # **Sumário**
+1. 
 
-1. **Overview do Projeto**
+# **Overview do Projeto**
 
-## 1.1 Descritivo da Solução
+## 1.1 Descrição da Solução
 
 A _“Titan Analytics”_ é um hub de pesquisa que utiliza inteligência artificial para fornecer aos analistas da Titanium Assets informações precisas e atualizadas para orientar suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os analistas a identificar oportunidades de investimento de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para tomar decisões de investimento mais assertivas.
 
+___
 
-## 1.2 Implementações futuras
-
-Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito para o mercado, portanto, está pronto para receber novas implementações, como:
-
-2. **Elaboração do Sistema**
+## **Elaboração do Sistema**
 
 
 ## 	2.1 Arquitetura do Sistema
@@ -43,10 +41,13 @@ Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito pa
 Tecnologias utilizadas no desenvolvimento da aplicação:
 
 * React
-* Styled-components
+* SCSS
 * Typescript
 * Node Js
 * Python
+* Hardhat
+* Solidity
+* 
 
 
 ## 2.3 Protótipo da solução
@@ -71,6 +72,9 @@ Ao clicar em determinada notícia no *Research Hub*, nosso usuário encontra ess
 
 ## 2.4 Código Fonte {#2-4-código-fonte}
 
+## 2.5 Implementações futuras
+
+Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito para o mercado, portanto, está pronto para receber novas implementações, como:
 
 # **3. Apêndice**
 
@@ -131,11 +135,6 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 
 ## Tecnologias
 
-Esse projeto foi desenvolvido usando as seguintes tecnologias:
-
-
----
-
 ## Rodando a aplicação
 
 Para rodar a aplicação há algumas dependências que precisam ser instaladas devido às tecnologias utilizadas, são elas:
@@ -152,9 +151,6 @@ Para rodar a aplicação há algumas dependências que precisam ser instaladas d
 
 ### Rodando o frontend
 
-Para rodar o servidor do frontend é necessário entrar na pasta do frontend com `cd frontend` e rodar o comando `npm install` para instalar as dependências do projeto e em seguida `npm run dev` para rodar o servidor.
-
----
 
 ## Licença
 
