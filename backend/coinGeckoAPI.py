@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 
-
+coin = sys.argv[1]
 
 def func1(coin: str):
     # Define the endpoint URL and required parameters
@@ -36,7 +36,7 @@ def func1(coin: str):
         print(json_response)
 
         # Do something with the JSON response
-        return json.dumps(json_response)
+        return(json_response)
     else:
         # Handle the error condition
         print("API request failed with status code:", response.status_code)
@@ -44,8 +44,4 @@ def func1(coin: str):
 # Debug statement: print the coin value being passed to the function
 print(f"Fetching market data for coin: {coin}")
 # Get the coin argument passed from Node.js
-coin = sys.argv[1]
-market = func1(coin)
-
-# Debug statement: print the market data
-print(f"Market data: {market}")
+func1(coin)
