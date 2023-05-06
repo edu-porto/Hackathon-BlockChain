@@ -22,6 +22,29 @@
 
 # **Overview do Projeto**
 
+## Árvore de arquivos (placeholder)
+
+As pastas desse projeto foram organizadas conforme exemplo a seguir:
+
+```
+├── .vscode
+├── Backend
+│    ├── database
+│    ├── hardhat
+│    ├── prisma
+│    ├── src
+│    ├── utils
+├── Documents
+├── Frontend
+│    ├── .next
+│    ├── assets
+│    ├── components
+│    ├── pages
+│    ├── public
+│    ├── styles
+├── README.md
+```
+
 ## 1.1 Descrição da Solução
 
 A _“Titan Analytics”_ é um hub de pesquisa que utiliza inteligência artificial para fornecer aos analistas da Titanium Assets informações precisas e atualizadas para orientar suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os analistas a identificar oportunidades de investimento de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para tomar decisões de investimento mais assertivas.
@@ -76,83 +99,9 @@ Ao clicar em determinada notícia no *Research Hub*, nosso usuário encontra ess
 
 Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito para o mercado, portanto, está pronto para receber novas implementações, como:
 
-# **3. Apêndice**
+# **3. Rodando a aplicação**
 
-
-## 3.1 Objetivo
-
-
-## 3.2 Referências
-
-
-
-
-
-
-
-# Doc antiga
-
-
-
-
-
-
-<img src="./docs/imgs/banner.png" alt="apresentação Titan Analytics"/>
-
-## Nossa Solução
-
-## Documentação
-
-A documentação com informações da visão geral do projeto, análise de negócio, requisitos do sistema e elaboração do sistema pode poder ser encontrada clicando [aqui](https://docs.google.com/document/d/1tVFvokeI9kHdzBjVO3KQHdwHLsf30SQoNz_Xy_5rL6w/edit?usp=sharing)
-
-## Árvore de arquivos
-
-As pastas desse projeto foram organizadas conforme exemplo a seguir:
-
-```
-├── .vscode
-├── Backend
-│    ├── database
-│    ├── hardhat
-│    ├── prisma
-│    ├── src
-│    ├── utils
-├── Documents
-├── Frontend
-│    ├── .next
-│    ├── assets
-│    ├── components
-│    ├── pages
-│    ├── public
-│    ├── styles
-├── README.md
-```
-
-## Arquitetura do sistema
-
-<img src="./docs/imgs/arquit_sistema.jpg" alt="arquitetura do sistema"/>
-
-
-## Tecnologias
-
-## Rodando a aplicação
-
-Para rodar a aplicação há algumas dependências que precisam ser instaladas devido às tecnologias utilizadas, são elas:
-
--   Node Js
-
-
-### Rodando a blockchain e deployando os contratos
-
-
-### Rodando o backend
-
-
-
-### Rodando o frontend
-
-
-## Licença
+## Licença (Placeholder)
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
