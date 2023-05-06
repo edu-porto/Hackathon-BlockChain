@@ -17,6 +17,8 @@
     "react-select": "^5.7.3",
     "react-styled-flexboxgrid": "^3.2.1",
     "recharts": "^2.5.0",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {

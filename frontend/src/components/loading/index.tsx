@@ -1,11 +1,10 @@
 import React from 'react'
 
-import './loading-styles.scss'
-import Container from './styled'
+import './styles.scss'
 
 const Loading: React.FC = () => {
   return (
-    <Container/>
+    <div className='loading'></div>
   )
 }
 

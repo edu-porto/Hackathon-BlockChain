@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Title, Navigation } from './styled'
+import './styles.scss'
 import { Col, Row } from 'react-styled-flexboxgrid'
 import News from '../../components/news'
 import Chart from '../../components/chart'
@@ -26,14 +26,14 @@ const news = {
 const Report: React.FC = () => {
   const [actualNews, setActualNews] = useState(0)
   return (
-    <Container>
+    <div className='report-container'>
       <Row>
         <Col xs={12} md={6}>
-          <Title>News Summary</Title>
+          <h2 className='title'>News Summary</h2>
           {
             <News title={news.geral_news[actualNews].title} text={news.geral_news[actualNews].description} sentiment={news.sentiments[actualNews]}></News>
           }
-          <Navigation>
+          <div className='navigation'>
             {
               news.geral_news.map((news: any, index: number) => {
                 return (
@@ -41,7 +41,7 @@ const Report: React.FC = () => {
                 )
               })
             }
-          </Navigation>
+          </div>
         </Col>
         <Col xs={12} md={6}>
           <Chart />
@@ -53,7 +53,7 @@ const Report: React.FC = () => {
           <News title={news.geral_news[actualNews].title} text={news.geral_news[actualNews].description} sentiment={news.sentiments[actualNews]}></News>
         }
       </Row> */}
-    </Container>
+    </div>
   )
 }
 

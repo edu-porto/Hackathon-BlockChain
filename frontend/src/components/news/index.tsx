@@ -1,6 +1,7 @@
 import React from 'react'
-import { Container, NewsTitle, Sentiment, Text } from './styled'
 import { Col, Grid, Row } from 'react-styled-flexboxgrid'
+
+import './styles.scss'
 
 type Props = {
   title: string,
@@ -10,22 +11,22 @@ type Props = {
 
 const News: React.FC<Props> = (props: Props) => {
   return (
-    <Row>
-      <Col xs={12} md={6}>
-        <Container>
-          <Row>
+    <div className='news-container'>
+      <Row>
+        <Col xs={12} md={6} >
+          <Row className='row'>
             <Col>
-              <NewsTitle>Ethereum Price Prediction as $8 Billion Trading Vol...</NewsTitle>
+              <h2 className='news-title'>Ethereum Price Prediction as $8 Billion Trading Vol...</h2>
             </Col>
           </Row>
           <Row>
             <Col style={{ color: props.sentiment.includes("Positive") ? 'green' : 'red' }}>
-              <Sentiment>{props.sentiment}</Sentiment>
+              <p className='sentiment'>{props.sentiment}</p>
             </Col>
           </Row>
           <Row>
-            <Col>
-              <Text>{props.text}</Text>
+            <Col xs={12} md={6}>
+              <p className='text'>{props.text}</p>
             </Col>
           </Row>
           {/* <Row>
@@ -33,9 +34,9 @@ const News: React.FC<Props> = (props: Props) => {
               <Author>{props.text}</Author>
             </Col>
           </Row> */}
-        </Container>
-      </Col>
-    </Row>
+        </Col>
+      </Row>
+    </div>
   )
 }
 
