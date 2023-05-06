@@ -3,8 +3,11 @@ import Container from './styled'
 import Select from '../../components/select'
 import { Row, Col } from 'react-styled-flexboxgrid'
 import Button from '../../components/button'
+import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom'
+import Report from '../report'
 
 const Home: React.FC = () => {
+  const navigate = useNavigate()
   const [disabled, setDisabled] = useState(true)
   const [selected, setSelected] = useState<any>()
 
@@ -21,8 +24,8 @@ const Home: React.FC = () => {
   }, [selected, disabled])
 
   const generateReport = () => {
-    if(selected) {
-      console.log(selected)
+    if (selected) {
+      navigate('/report')
     }
   }
 
@@ -36,6 +39,10 @@ const Home: React.FC = () => {
           <Button disabled={disabled} text="Generate Report" callGenerate={() => generateReport()}></Button>
         </Col>
       </Row>
+
+      <Routes>
+        <Route path='/report' element={<Report />}></Route>
+      </Routes>
     </Container>
   )
 }

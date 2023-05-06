@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Container = styled.div`
+  max-width: 100vw;
   display: flex;
   align-items: center;
   background-color: #202020;
