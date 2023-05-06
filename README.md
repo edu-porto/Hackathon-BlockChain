@@ -1,34 +1,5 @@
 # **Titan Analytics - Challenge Inteli Blockchain 2023**
 
-
-<p style="text-align: right">
-<strong>Autores:</strong></p>
-
-
-<p style="text-align: right">
-Allan Casado</p>
-
-
-<p style="text-align: right">
-Eduardo Porto</p>
-
-
-<p style="text-align: right">
-Felipe Saadi</p>
-
-
-<p style="text-align: right">
-João Lucas Gonzalez</p>
-
-
-<p style="text-align: right">
-Mihaell Alves</p>
-
-
-<p style="text-align: right">
-Pedro Gattai</p>
-
-
 <p style="text-align: right">
 <strong>Nome da solução:</strong></p>
 
@@ -190,3 +161,56 @@ Para rodar o servidor do frontend é necessário entrar na pasta do frontend com
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/allan-casado-6339a9177/">
+        <img src="https://avatars.githubusercontent.com/u/53352207?v=4" width="100px;" alt="Allan Casado profile image"/><br>
+        <sub>
+          <b>Allan Casado</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/eduardo-franca-porto/">
+        <img src="https://media.licdn.com/dms/image/C4E03AQFCLFtWgbMbaw/profile-displayphoto-shrink_800_800/0/1578684996745?e=1688601600&v=beta&t=dflU6Ld91EwPHdqh5dj3ZX58qZ4OFcLpx4zVntdOsFo" width="100px;" alt="Eduardo Porto profile image"/><br>
+        <sub>
+          <b>Eduardo Porto</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/felipe-saadi/">
+        <img src="https://avatars.githubusercontent.com/u/54749257?v=4" width="100px;" alt="Felipe Saadi profile image"/><br>
+        <sub>
+          <b>Felipe Saadi</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/joão-lucas-gonzalez/">
+        <img src="https://avatars.githubusercontent.com/u/99195054?v=4" width="100px;" alt="João Lucas Gonzalez profile image"/><br>
+        <sub>
+          <b>João Lucas Gonzalez</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/mihaellalves/">
+        <img src="https://avatars.githubusercontent.com/u/79888949?v=4" width="100px;" alt="Mihaell Alves profile image"/><br>
+        <sub>
+          <b>Mihaell Alves</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/pedro-gattai-096678227/">
+        <img src="https://media.licdn.com/dms/image/C4E03AQEWaZsbBd4ZnA/profile-displayphoto-shrink_800_800/0/1645023986659?e=1688601600&v=beta&t=1KONEcawS4B5TtdRuwd5qq7gYDuaYN6hMObV6gKr5u0" width="100px;" alt="Pedro Gattai profile image"/><br>
+        <sub>
+          <b>Pedro Gattai</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
