@@ -37,9 +37,9 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 ├── README.md
 ```
 
-## 1.1 Descrição da Solução
+## 1. Descrição da Solução
 
-A _“Titan Analytics”_ é uma plataforma que utiliza inteligência artificial para fornecer aos analistas da Titanium Asset Management e público interessado em crypto ativos, gerando informações precisas e atualizadas para orientar suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os usúarios a identificar oportunidades de investimento e tendências de mercado de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para ajudar a tomar decisões de investimento mais assertivas.
+A _“Titan Analytics”_ é uma plataforma que utiliza inteligência artificial para fornecer informações precisas e atualizadas aos analistas da Titanium Asset Management e público interessado em crypto ativos, orientando suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os usúarios a identificar oportunidades de investimento e tendências de mercado de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para ajudar a tomar decisões de investimento mais assertivas.
 
 ---
 
