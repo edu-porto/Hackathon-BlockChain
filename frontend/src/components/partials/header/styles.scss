@@ -1,6 +1,6 @@
-import styled from "styled-components"
-
-const Container = styled.div`
+.header-container {
+  position: relative;
+  // width: 100vw;
   display: flex;
   align-items: center;
   background-color: #202020;
@@ -11,6 +11,10 @@ const Container = styled.div`
     margin-top: 4px;
     max-width: 260px;
   }
-`
 
-export default Container
+  .login-button {
+    position: absolute;
+    right: 60px;
+    width: 100px;
+  }
+}

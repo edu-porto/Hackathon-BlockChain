@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './styled'
+import './styles.scss'
 
 type Props = {
   text: string,
@@ -9,7 +9,7 @@ type Props = {
 
 const Button: React.FC<Props> = (props: Props) => {
   return (
-    <Container onClick={() => props.callGenerate()} disabled={props.disabled}>{props.text}</Container>
+    <button onClick={() => props.callGenerate()} disabled={props.disabled}>{props.text}</button>
   )
 }
 
