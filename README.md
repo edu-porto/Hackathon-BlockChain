@@ -159,11 +159,11 @@ npm install --force
 
 apos isso rode o comando
 
-\`\`\`\
+\`\`\`
 
 npm run dev
 
-\`\`\`\
+\`\`\`
 
 Pronto, o projeto já pode ser alterado e pode ser acessado localmente
 
