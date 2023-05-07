@@ -85,7 +85,17 @@ Ao clicar em determinada notícia no _Research Hub_, nosso usuário encontra ess
 
 Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito para o mercado, portanto, está pronto para receber novas implementações, como:
 
-- (MINEIRINHO COLOCAR AQUELES DADOS DE MELHORIAS FUTURAS QUE EXPLIQUEI HOJE A TARDE)
+### 2.5.1 Implementações para melhoria do modelo:
+ - Assinatura da API privada do Google News.
+ - Assinatura da API privada do Twitter.
+ - ChatGPT Plus.
+ - Utilizar APIs que geram insights,sobre dados técnicos das redes BlockChain, para acompanhar o número de transações da moeda em tais redes, como a Token Terminal.
+ - Transcrição de áudio para texto, para resumir vídeos e lives relacionada ao ativo pesquisado.
+
+É fundamental destacar que todas essas melhorias teriam um impacto significativo na qualidade e na velocidade dos dados utilizados pelo modelo de inteligência artificial.
+### 2.5.2 Outras implementações:
+- Possibilitar arbitragem dentro do sistema.
+- Implementar histórico de relatórios por usuário, ou seja, recomendar na homepage as moedas mais pesquisadas pelo usuário.
 
 # **3\. Rodando a aplicação**
 
