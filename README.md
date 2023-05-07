@@ -37,9 +37,9 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 ├── README.md
 ```
 
-## 1.1 Descrição da Solução
+## 1. Descrição da Solução
 
-A _“Titan Analytics”_ é uma plataforma que utiliza inteligência artificial para fornecer aos analistas da Titanium Asset Management e público interessado em crypto ativos, gerando informações precisas e atualizadas para orientar suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os usúarios a identificar oportunidades de investimento e tendências de mercado de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para ajudar a tomar decisões de investimento mais assertivas.
+A _“Titan Analytics”_ é uma plataforma que utiliza inteligência artificial para fornecer informações precisas e atualizadas aos analistas da Titanium Asset Management e público interessado em crypto ativos, orientando suas decisões de investimento em criptomoedas. Por meio da coleta de dados de diversas fontes online, com a junção de análise dos mesmos em tempo real, o sistema gera relatórios detalhados e confiáveis que ajudam os usúarios a identificar oportunidades de investimento e tendências de mercado de forma ágil e embasada. Com essa solução, a _“Titan Analytics”_ tem à disposição um conjunto de informações valiosas para ajudar a tomar decisões de investimento mais assertivas.
 
 ---
 
@@ -85,7 +85,17 @@ Ao clicar em determinada notícia no _Research Hub_, nosso usuário encontra ess
 
 Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito para o mercado, portanto, está pronto para receber novas implementações, como:
 
-- (MINEIRINHO COLOCAR AQUELES DADOS DE MELHORIAS FUTURAS QUE EXPLIQUEI HOJE A TARDE)
+### 2.5.1 Implementações para melhoria do modelo:
+ - Assinatura da API privada do Google News.
+ - Assinatura da API privada do Twitter.
+ - ChatGPT Plus.
+ - Utilizar APIs que geram insights,sobre dados técnicos das redes BlockChain, para acompanhar o número de transações da moeda em tais redes, como a Token Terminal.
+ - Transcrição de áudio para texto, para resumir vídeos e lives relacionada ao ativo pesquisado.
+
+É fundamental destacar que todas essas melhorias teriam um impacto significativo na qualidade e na velocidade dos dados utilizados pelo modelo de inteligência artificial.
+### 2.5.2 Outras implementações:
+- Possibilitar arbitragem dentro do sistema.
+- Implementar histórico de relatórios por usuário, ou seja, recomendar na homepage as moedas mais pesquisadas pelo usuário.
 
 # **3\. Rodando a aplicação**
 
