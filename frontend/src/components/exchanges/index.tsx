@@ -5,14 +5,14 @@ import './styles.scss'
 
 type Props = {
   content:
-    {
-      base: string,
-      last: number,
-      market: string,
-      target: string,
-      trustScore: string,
-      volume: number,
-    }[]
+  {
+    base: string,
+    last: number,
+    market: string,
+    target: string,
+    trustScore: string,
+    volume: number,
+  }[]
 }
 
 const Exchanges: React.FC<Props> = (props: Props) => {
@@ -37,7 +37,9 @@ const Exchanges: React.FC<Props> = (props: Props) => {
                     <Col md={2}>{exchange.last}</Col>
                     <Col md={2}>{exchange.market}</Col>
                     <Col md={1}>{exchange.target}</Col>
-                    <Col md={2}>{exchange.trustScore}</Col>
+                    <Col md={2} className='icon-container'>
+                      <div className='icon' style={{ backgroundColor: `${exchange.trustScore === 'green' ? 'green' : 'red'}` }}></div>
+                    </Col>
                     <Col md={2}>{exchange.volume}</Col>
                   </Row>
                 )

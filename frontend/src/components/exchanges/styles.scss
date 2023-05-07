@@ -18,14 +18,21 @@
       padding: 20px 0px;
       margin-bottom: 8px;
       border-left: solid 1px #404040;
+      background-color: #80808005;
       // border-radius: 12px;
       text-align: center;
 
-      // .icon {
-      //   width: 5px !import;
-      //   height: 5px;
-      //   border-radius: 50%;
-      // }
+      .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
+      }
     }
   }
 }
