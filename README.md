@@ -47,7 +47,7 @@ A _“Titan Analytics”_ é uma plataforma que utiliza inteligência artificial
 
 ## 2.1 Arquitetura do Sistema
 
-![arquitetura do sistema](./docs/imgs/arquit_sistema.jpg)
+![arquitetura do sistema](./docs/imgs/ArquiteturaBlockChain.jpg)
 
 ## 2.2 Tecnologias Utilizadas
 
