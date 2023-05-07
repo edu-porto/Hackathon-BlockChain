@@ -1,0 +1,43 @@
+.modal {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .modal-container {
+    padding: 40px;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    overflow-y: auto;
+
+    .sentiment {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .wordcloud {
+      margin-top: 40px;
+      width: 100%;
+    }
+    
+    .text {
+      margin-bottom: 16px;
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+  }
+}
