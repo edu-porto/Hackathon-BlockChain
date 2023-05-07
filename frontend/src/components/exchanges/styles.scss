@@ -1,0 +1,38 @@
+.exchanges {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  .exchanges-container {
+    .label {
+      margin-left: 40px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .row {
+      margin-left: 40px;
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 20px 0px;
+      margin-bottom: 8px;
+      border-left: solid 1px #404040;
+      background-color: #80808005;
+      // border-radius: 12px;
+      text-align: center;
+
+      .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
