@@ -8,8 +8,6 @@ const Infos: React.FC<any> = (props: any) => {
   const generateData = () => {
     if (props) {
       const crypto = props.data
-      console.log(crypto)
-      console.log(data)
 
       switch (crypto) {
         case 'ethereum':

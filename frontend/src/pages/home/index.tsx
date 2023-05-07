@@ -21,7 +21,6 @@ const Home: React.FC = () => {
   ]
 
   useEffect(() => {
-    console.log(selected)
     if (selected && disabled) {
       setDisabled(false)
     }
@@ -30,11 +29,8 @@ const Home: React.FC = () => {
   const generateReport = async () => {
     if (selected && !loading) {
       setLoading(true)
-      console.log("requisitando")
       // const response = await Service.getFake(selected)
       const response = await Service.generateReport(selected)
-      console.log(response)
-      // console.log(response.output)
       navigate('/report', {state: {...response.output, crypto: selected}})
       setLoading(false)
     }
