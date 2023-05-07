@@ -8,6 +8,8 @@ type Props = {
 }
 
 const SelectComponent: React.FC<Props> = (props: Props) => {
+
+  
   return (
     <div className='select-container'>
       <Select options={props.options} placeholder={props.placeholder} onChange={(value) => props.onChange(value)}/>

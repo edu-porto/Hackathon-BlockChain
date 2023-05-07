@@ -30,7 +30,7 @@ const Exchanges: React.FC<Props> = (props: Props) => {
               <Col md={2}>Volume</Col>
             </Row>
             {
-              props.content.map((exchange: any, index: number) => {
+              props.content && props.content.map((exchange: any, index: number) => {
                 return (
                   <Row center='md' className='row' key={index}>
                     <Col md={2}>{exchange.base}</Col>
