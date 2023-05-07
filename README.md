@@ -79,7 +79,21 @@ Ao clicar em determinada notícia no _Research Hub_, nosso usuário encontra ess
 
 ![arquitetura do sistema](./docs/imgs/pg_news.png)
 
-## 2.4 Código Fonte {#2-4-código-fonte}
+## 2.4 Por trás dos algoritmos 
+Os modelos de inteligência artificial utilizados para o desenvolvimento da aplicação são :
+- gpt 3.5 para a sumarização dos textos.
+- text-davinci-003 para a análise de sentimento das notícias.
+Ambos os modelos foram desenvolvidos pela OpenAI.
+
+Além desses modelos, fazem uso de diversas técnicas e ferramentas de processamento de linguagem natural, como por exemplo o Bag Of Words e WordCloud (nuvem de palavras). O uso dessas ferramentas foi facilitado principalmente por meio da biblioteca python nltk.
+Para o consumo dos dados, os seguintes recursos foram utilizados:
+- api google news, para coleta das notícias sobre determinado criptoativo
+- api binance, para análise do preço do ativo nos últimos 7 dias
+- api coingecko, para coleta da cotação do ativo em diferentes exchanges
+
+Por fim, para o desenvolvimento da API, que disponibiliza o uso do modelo por qualquer serviço e está hospedade em uma nuvem gratuita (Render), utilizando o Flask.
+
+Para melhor entendimento do código, todos os métodos utilizados foram documentados no próprio código.
 
 ## 2.5 Implementações futuras
 
