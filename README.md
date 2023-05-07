@@ -89,6 +89,40 @@ Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito pa
 
 # **3\. Rodando a aplicação**
 
+**Para rodar a solução no ambiente de desenvolvimento siga os seguintes passos :**
+
+Instale o python na versão 3.10.11 a partir do seguinte \[link\](https://www.python.org/downloads/release/python-31011/)
+
+Clone o projeto
+
+\`\`\`bash
+
+git clone https://link-to-project
+
+\`\`\`
+
+Na sua IDE de preferência abrir o repositório e criar um arquivo .venv
+
+Tendo certeza que o python 3.10.11 é o interpretador da venv abra o terminal na IDE
+
+Vá para a pasta do modelo
+
+\`\`\`bash
+
+cd IA
+
+\`\`\`
+
+Instale as dependências
+
+\`\`\`bash
+
+pip install -r requirements.txt
+
+\`\`\`
+
+Pronto, o projeto já pode ser alterado
+
 ## Licença (Placeholder)
 
 Distributed under the MIT License. See `LICENSE` for more information.
