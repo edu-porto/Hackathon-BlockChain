@@ -8,6 +8,9 @@ _Titan Analytics_
 
 06 de maio de 2023
 
+# **Link para acessar remotamente**
+https://main--venerable-strudel-31a994.netlify.app/
+
 # **Sumário**
 
 # **Overview do Projeto**
@@ -146,7 +149,23 @@ pip install -r requirements.txt
 
 \`\`\`
 
-Pronto, o projeto já pode ser alterado
+apos isso volte para a pasta principal e entre na pasta 'frontend'
+
+\`\`\`bash
+
+npm install --force
+
+\`\`\`
+
+apos isso rode o comando
+
+\`\`\`\
+
+npm run dev
+
+\`\`\`\
+
+Pronto, o projeto já pode ser alterado e pode ser acessado localmente
 
 ## Licença (Placeholder)
 
