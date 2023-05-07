@@ -39,6 +39,9 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 │    ├── styles
 ├── README.md
 ```
+Os códigos que mais se adequam a categoria da Titanium Asset estão localizados dentro da pasta 'IA', que contém todos os scripts utilizados para coleta dos dados e para a geração dos insights (resumo, análise de sentimento...) a partir desses.
+
+Os códigos que mais se adequam a categoria da Mynt estão localizados dentro da pasta 'backend/smart-contract", que implementam o smart contract para a utilização do BTG Dol.
 
 ## 1. Descrição da Solução
 
