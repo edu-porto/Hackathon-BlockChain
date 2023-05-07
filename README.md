@@ -63,7 +63,7 @@ Tecnologias utilizadas no desenvolvimento da aplicação:
 
 ## 2.3 Protótipo da solução
 
-Primeiramente desenvolvemos o fluxo de uso da nossa solução prototipando nossas telas no figma.
+ Para iniciar o processo de desenvolvimento da nossa solução, utilizamos o Figma para criar protótipos das telas e definir o fluxo de uso da ferramenta.
 
 ### Landing Page
 
@@ -85,13 +85,14 @@ Os modelos de inteligência artificial utilizados para o desenvolvimento da apli
 - text-davinci-003 para a análise de sentimento das notícias.
 Ambos os modelos foram desenvolvidos pela OpenAI.
 
-Além desses modelos, fazem uso de diversas técnicas e ferramentas de processamento de linguagem natural, como por exemplo o Bag Of Words e WordCloud (nuvem de palavras). O uso dessas ferramentas foi facilitado principalmente por meio da biblioteca python nltk.
+Além desses modelos, o sistema faz o uso de diversas técnicas e ferramentas de processamento de linguagem natural, como por exemplo o Bag Of Words e WordCloud (nuvem de palavras). O uso dessas ferramentas foi facilitado principalmente por meio da biblioteca python nltk.
 Para o consumo dos dados, os seguintes recursos foram utilizados:
 - api google news, para coleta das notícias sobre determinado criptoativo
 - api binance, para análise do preço do ativo nos últimos 7 dias
 - api coingecko, para coleta da cotação do ativo em diferentes exchanges
 
-Por fim, para o desenvolvimento da API, que disponibiliza o uso do modelo por qualquer serviço e está hospedade em uma nuvem gratuita (Render), utilizando o Flask.
+Por fim, desenvolvemos a API utilizando o Flask e hospedamos em uma nuvem gratuita (Render), permitindo que o modelo seja acessado por qualquer serviço.
+
 
 Para melhor entendimento do código, todos os métodos utilizados foram documentados no próprio código.
 
