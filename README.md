@@ -21,7 +21,6 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 ├── Backend
 │    ├── smart-contract
 │    ├── database
-│    ├── hardhat
 │    ├── prisma
 │    ├── src
 │    ├── utils
