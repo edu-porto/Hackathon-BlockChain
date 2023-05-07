@@ -11,6 +11,9 @@ _Titan Analytics_
 # **Link para acessar remotamente**
 https://main--venerable-strudel-31a994.netlify.app/
 
+# **Link do Vídeo**
+https://clipchamp.com/watch/RDylc9bsGUl
+
 # **Sumário**
 
 # **Overview do Projeto**
@@ -73,17 +76,21 @@ Tecnologias utilizadas no desenvolvimento da aplicação:
 
 ### Landing Page
 
+![Tela da Aplicaçõa](./docs/imgs/landing-page.png)
+
 ### Research HUB
 
 É nela que disponibilizamos para nosso usuário as principais informações que ele necessita para uma avaliação do ativo
 
-![arquitetura do sistema](./docs/imgs/pg_geral.png)
+![Tela Aplicação](./docs/imgs/tela-aplicacao-1.jpg)
 
 ### Notícias Detalhadas
 
 Ao clicar em determinada notícia no _Research Hub_, nosso usuário encontra essa **pagina**(?) com as informações detalhadas da notícia, um resumo, o sentimento geral, além de uma _nuvem de palavras_
 
-![arquitetura do sistema](./docs/imgs/pg_news.png)
+![Tela Aplicação](./docs/imgs/tela-aplicacao-3.jpg)
+
+![Tela da Aplicaçõa](./docs/imgs/tela-aplicacao-2.png)
 
 ## 2.4 Por trás dos algoritmos 
 Os modelos de inteligência artificial utilizados para o desenvolvimento da aplicação são :
