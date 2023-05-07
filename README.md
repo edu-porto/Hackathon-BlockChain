@@ -8,6 +8,8 @@ _Titan Analytics_
 
 06 de maio de 2023
 
+# Link do Vídeo: https://clipchamp.com/watch/RDylc9bsGUl
+
 # **Sumário**
 
 # **Overview do Projeto**
