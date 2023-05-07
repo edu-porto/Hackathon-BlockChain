@@ -7,12 +7,12 @@ button {
   border: none;
   text-align: center;
 
-  :hover {
+  &:hover {
     opacity: 0.9;
     cursor: pointer;
   }
 
-  :disabled {
+  &:disabled {
     opacity: 0.7;
     cursor: auto;
   }

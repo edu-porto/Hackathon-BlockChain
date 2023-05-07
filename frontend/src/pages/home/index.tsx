@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Container from './styled'
+import "./styles.scss"
 import Select from '../../components/select'
 import { Row, Col } from 'react-styled-flexboxgrid'
 import Button from '../../components/button'
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
   const options = [
     { value: 'bitcoin', label: 'Bitcoin' },
     { value: 'ethereum', label: 'Ethereum' },
-    { value: 'aave', label: 'Aave' }
+    { value: 'litecoin', label: 'Litecoin' }
   ]
 
   useEffect(() => {
@@ -30,9 +30,9 @@ const Home: React.FC = () => {
   }
 
   return (
-    <Container>
-      <Row center='md'>
-        <Col xs={12} md={3} lg={3}>
+    <div className='home-container'>
+      <Row center='xs'>
+        <Col xs={8} md={3} lg={3}>
           <Select options={options} placeholder="Select crypto" onChange={(option: any) => setSelected(option.value)}></Select>
         </Col>
         <Col xs={12} md={1} lg={1}>
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
       <Routes>
         <Route path='/report' element={<Report />}></Route>
       </Routes>
-    </Container>
+    </div>
   )
 }
 

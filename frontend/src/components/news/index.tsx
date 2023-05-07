@@ -12,8 +12,8 @@ type Props = {
 const News: React.FC<Props> = (props: Props) => {
   return (
     <div className='news-container'>
-      <Row>
-        <Col xs={12} md={6} >
+      {/* <Row>
+        <Col xs={8} md={6} > */}
           <Row className='row'>
             <Col>
               <h2 className='news-title'>Ethereum Price Prediction as $8 Billion Trading Vol...</h2>
@@ -25,17 +25,12 @@ const News: React.FC<Props> = (props: Props) => {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={8} md={6}>
               <p className='text'>{props.text}</p>
             </Col>
           </Row>
-          {/* <Row>
-            <Col xs={12} md={8}>
-              <Author>{props.text}</Author>
-            </Col>
-          </Row> */}
-        </Col>
-      </Row>
+        {/* </Col>
+      </Row> */}
     </div>
   )
 }

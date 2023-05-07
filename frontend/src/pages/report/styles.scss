@@ -14,6 +14,10 @@
     margin-bottom: 20px;
   }
 
+  .small {
+    margin-bottom: 10px;
+  }
+
   .navigation {
     display: flex;
     justify-content: center;
@@ -32,5 +36,10 @@
     .active {
       background-color: #404040;
     }
+  }
+
+  .center {
+    margin-top: 20px;
+    text-align: center;
   }
 }
