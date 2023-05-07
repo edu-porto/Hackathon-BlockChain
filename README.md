@@ -19,6 +19,7 @@ As pastas desse projeto foram organizadas conforme exemplo a seguir:
 ```
 ├── .vscode
 ├── Backend
+│    ├── smart-contract
 │    ├── database
 │    ├── hardhat
 │    ├── prisma
