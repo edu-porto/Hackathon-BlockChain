@@ -129,15 +129,24 @@ Nosso projeto não foi pensado exclusivamente para o hackathon, mas sim feito pa
 
 **Para rodar a solução no ambiente de desenvolvimento siga os seguintes passos :**
 
-Instale o python na versão 3.10.11 a partir do seguinte \[link\](https://www.python.org/downloads/release/python-31011/)
+### Crie o arquivo .env
+Este arquivo contém as chaves que são necessárias para rodar a aplicação, são necessárias para pegar os dados das notícias, resumo dos textos e análise sentimental. As chaves utilizadas são as seguintes: 
+```bash
+API_KEY_NEWS = "Chave do google news para coletar notícias em tempo real"
+API_KEY_OPENAI = "Chave da openai que libera o resumo de textos e análise sentimental"
+API_KEY_BINANCE = "API da binance para coleta de dados de mercado"
+API_SECRET_BINANCE = "Chave para liberar a api da binance"
+```
+
+Instale o python na versão 3.10.11 a partir do seguinte [link](https://www.python.org/downloads/release/python-31011/)
 
 Clone o projeto
 
-\`\`\`bash
+```bash
 
 git clone https://link-to-project
 
-\`\`\`
+```
 
 Na sua IDE de preferência abrir o repositório e criar um arquivo .venv
 
@@ -145,35 +154,27 @@ Tendo certeza que o python 3.10.11 é o interpretador da venv abra o
 
 Vá para a pasta do modelo
 
-\`\`\`bash
-
+```bash
 cd IA
-
-\`\`\`
+```
 
 Instale as dependências
 
-\`\`\`bash
-
+```bash
 pip install -r requirements.txt
 
-\`\`\`
+```
+Após instalar as dependências isso volte para a pasta principal e entre na pasta 'frontend'
 
-apos isso volte para a pasta principal e entre na pasta 'frontend'
 
-\`\`\`bash
-
+```bash
 npm install --force
-
-\`\`\`
-
+```
 apos isso rode o comando
 
-\`\`\`
-
+```bash
 npm run dev
-
-\`\`\`
+```
 
 Pronto, o projeto já pode ser alterado e pode ser acessado localmente
 
